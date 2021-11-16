@@ -1,0 +1,73 @@
+.navigation-wrapper {
+    background: #1EC2F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F47828;
+    margin: 6px 0;
+    transition: 0.4s transform, 0.4s opacity;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.navigation {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 79px;
+    background: #1EC2F6;
+    text-align: center;
+    display: none;
+}
+
+.navigation.mobile-open {
+    display: block;
+}
+
+html.navigation-open {
+    overflow: hidden;
+}
+
+.navigation > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 25px auto 0;
+    display: block;
+    width: fit-content;
+}
+
+.navigation > ul > li > a::after{
+    content: "";
+    display: block;
+    margin-top: 2px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.2s linear;
+}
+
+.navigation > ul > li > a:hover::after{
+    width: 100%;
+}

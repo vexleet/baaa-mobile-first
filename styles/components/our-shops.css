@@ -1,0 +1,66 @@
+.our-shops {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-shops .shop {
+    height: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s height;
+}
+
+.our-shops .shop::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.our-shops .shop img{
+    filter: grayscale(100%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    object-position: center;
+    transition: 0.4s filter;
+}
+
+.our-shops .shop h3 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.our-shops .shop a {
+    color: #fff;
+    font-size: 1.2em;
+    opacity: 0;
+    transition: 0.4s opacity, 0.4s margin-top;
+}
+
+.our-shops .shop:hover {
+    height: 200px;
+}
+
+.our-shops .shop:hover img {
+    filter: grayscale(0);
+}
+
+.our-shops .shop:hover a {
+    height: auto;
+    opacity: 1;
+    margin-top: 10px;
+}
+
