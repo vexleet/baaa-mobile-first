@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    padding: 40px 10px;
+    flex-direction: column;
+    background: #1EC2F6;
+    justify-content: center;
+    align-items: center;
+}
+
+footer article {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .footer-detail-title {
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+footer .footer-detail-description {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+@media only screen and (min-width: 830px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

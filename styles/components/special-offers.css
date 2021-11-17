@@ -1,0 +1,56 @@
+.product-offer {
+    min-width: 170px;
+    max-width: 170px;
+    margin-bottom: 20px;
+}
+
+.product-offer {
+    margin-right: 15px;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 150px;
+    height: 120px;
+    margin: 0 auto 5px;
+    display: block;
+    object-fit: contain;
+}
+
+.product-percent {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    background: #E6EB52;
+    padding: 5px 10px;
+    border-radius: 21px;
+    font-weight: bold;
+}
+
+.product-name {
+    margin-bottom: 10px;
+}
+
+.product-price .new-price {
+    font-weight: bold;
+}
+
+.product-price .old-price {
+    text-decoration: line-through;
+}
+
+.special-offers {
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+.product-offers {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

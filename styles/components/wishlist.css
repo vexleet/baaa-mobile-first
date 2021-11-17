@@ -1,0 +1,49 @@
+.wishlist-title-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wishlist .section-title {
+    margin-bottom: 20px;
+}
+
+.form-wrapper-background {
+    background: #DEDEDE;
+}
+
+.form-wrapper {
+    max-width: 800px;
+    min-width: 250px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.form-wrapper > p {
+    margin-bottom: 15px;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+    display: block;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    background: #fff;
+    padding: 10px 10px 10px 15px;
+    width: 95%;
+    margin: 0 auto 20px;
+    font-size: 1.1em;
+}
+
+.form-wrapper button {
+    text-transform: uppercase;
+    background: #F47828;
+    color: #fff;
+    font-size: 1.2em;
+    display: block;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+}

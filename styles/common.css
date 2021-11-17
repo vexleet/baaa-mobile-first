@@ -1,0 +1,9 @@
+.section-title {
+    background: #1EC2F6;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    width: fit-content;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 20px;
+}

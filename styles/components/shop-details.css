@@ -1,0 +1,39 @@
+.shop-details .shop-name {
+    margin: 30px auto;
+    font-size: 2.2em;
+}
+
+.shop-details .shop-image {
+    width: 100%;
+}
+
+.shop-details-about {
+    background: #DEDEDE;
+    padding: 20px;
+}
+
+.shop-details-about h2 {
+    text-align: center;
+    color: #F47828;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.shop-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 480px;
+    font-size: 1.1em;
+    margin: 0 auto;
+}
+
+.shop-detail > img {
+    width: 60px;
+}
+
+.shop-detail-description {
+    flex: 1;
+    margin-left: 10px;
+}
