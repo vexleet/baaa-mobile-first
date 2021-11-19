@@ -71,3 +71,25 @@ html.navigation-open {
 .navigation > ul > li > a:hover::after{
     width: 100%;
 }
+
+@media only screen and (min-width: 830px) {
+    .navigation {
+        display: block;
+        position: unset;
+        height: auto;
+        width: auto;
+    }
+
+    .navigation > ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation > ul li > a {
+        margin: 0 0 0 20px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

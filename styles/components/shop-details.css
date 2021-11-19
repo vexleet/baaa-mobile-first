@@ -37,3 +37,29 @@
     flex: 1;
     margin-left: 10px;
 }
+
+.shop-details-flags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: unset;
+}
+
+.shop-details-flags-wrapper img {
+    width: 40px;
+}
+
+
+@media only screen and (min-width: 830px) {
+    .shop-details-wrapper {
+        display: flex;
+    }
+
+    .shop-details .shop-image {
+        width: 50%;
+    }
+
+    .shop-details-about {
+        width: 100%;
+    }
+}
